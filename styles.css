@@ -1,0 +1,36 @@
+body{
+    background-color:pink
+}
+
+
+#forms
+{
+    padding-left:20%;
+}
+#img{
+    color:solid white;
+    animation: bell-ani 1s linear 3 alternate-reverse
+}
+@keyframes bell-ani
+{
+ 0%{
+    transform: rotate(-20deg)
+ }
+
+ 100%{
+    transform: rotate(90deg)
+ }
+
+}
+.box{
+    background-color:white;
+    color:black;
+    border-radius: 20px;
+    height:50px
+}
+.list{
+    padding-left:5%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:20px;
+    padding-top:4%;
+}
